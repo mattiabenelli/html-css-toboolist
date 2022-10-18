@@ -3,24 +3,25 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: lightgrey;
 }
 /* inzio utilities */
 .contenitore{
-    width: 80%;
+    width: 1500px;
     background-color: aqua;
     /* height: 500px; */
     margin: 50px auto;
     padding: 10px 100px;
 }
 /* fine utilities */
-
+body{
+    background-color: aliceblue;
+}
 /* Inizio header */
 .titolo{
     display: inline-block;
     font-size: 60px;
 }
-header,h1{
+header{
     background-color: white;
 }
 header > img{
@@ -47,3 +48,28 @@ nav{
     color: gray;
 }
 /* fine nav */
+
+/* Inzio main */
+li{
+    list-style-type: none;
+
+}
+.Titolo_lista{
+    font-weight: bold;
+    font-size: 25px;    
+}
+.Eventi{
+    font-size: 20px;
+}
+
+.Eventi::before{
+    content: ' \2713';
+    border: solid green 1px;
+    border-radius: 50%;
+    height: 10px;
+    width:  10px;
+    font-size: 15px;
+    padding: 5px;   
+}
+
+/* Fine main */
