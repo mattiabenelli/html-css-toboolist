@@ -5,6 +5,16 @@
     font-family: 'Roboto', sans-serif;
     background-color: lightgrey;
 }
+/* inzio utilities */
+.contenitore{
+    width: 80%;
+    background-color: aqua;
+    /* height: 500px; */
+    margin: 50px auto;
+    padding: 10px 100px;
+}
+/* fine utilities */
+
 /* Inizio header */
 .titolo{
     display: inline-block;
@@ -17,3 +27,23 @@ header > img{
     margin-left: 10px;
 }
 /* Fine header */
+
+/* inzio mav */
+nav{
+    margin: 100px; 
+}
+.nav_button{
+    padding: 10px;
+    border-radius: 10%;
+}    
+.Add_task{
+    background-color: rgba(71,173,241,255);
+    border-color: rgba(71,173,241,255);
+    color: white;
+}
+.Add_section{
+    background-color: rgba(255,255,255,255);
+    border-color: rgba(255,255,255,255);
+    color: gray;
+}
+/* fine nav */
