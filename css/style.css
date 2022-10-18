@@ -2,4 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgrey;
 }
+/* Inizio header */
+.titolo{
+    display: inline-block;
+    font-size: 60px;
+}
+header,h1{
+    background-color: white;
+}
+header > img{
+    margin-left: 10px;
+}
+/* Fine header */
